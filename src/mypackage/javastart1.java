@@ -14,7 +14,7 @@ public class javastart1 {
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
 		
-		String[] names= {"Lady Bird(2017)","Mission: Impossible - Fallout(2018)","BlacKkKlansman(2018)","Get Out(2017)"};
+		String[] names= {"Lady Bird(2017)"};
 		
 		for(String k:names) {
 			driver.get("https://www.google.com/");
